@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_number - prints an integer
- * @n: The integer to print
+ * print_number - Prints an integer
+ * @n: The integer is to be print
  */
 void print_number(int n)
 {
@@ -17,7 +17,5 @@ void print_number(int n)
 	{
 	print_number(d / 10);
 	}
-	_putchar((d % 10) + '0');
-	_putchar('\n');
-	return (0);
+	_putchar((d % 10) + '0')
 }
